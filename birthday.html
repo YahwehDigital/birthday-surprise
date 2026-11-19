@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts" id="hearts"></div>
+
+    <!-- Welcome Screen -->
+    <section id="welcome" class="welcome">
+        <div class="welcome-content">
+            <div class="gift">🎁</div>
+            <h1>Hey, My Love ❤️</h1>
+            <p>I have something special for you...</p>
+            <button onclick="startSurprise()">
+                Open My Surprise 💝
+            </button>
+        </div>
+    </section>
+
+    <!-- Birthday Slideshow -->
+    <section id="birthday" class="birthday hidden">
+
+        <h1 class="birthday-title">
+            Happy Birthday,<br> My Love (Witch)! ❤️
+        </h1>
+
+        <p class="subtitle">
+            Today is all about you, beautiful.
+        </p>
+
+        <div class="slideshow">
+            <img id="slide" src="pictures/1.jpeg" alt="Birthday memories">
+        </div>
+
+        <p class="message" id="message">
+            Every picture tells a beautiful story...
+        </p>
+
+        <div id="finalMessage" class="final hidden">
+            <h1>❤️ I LOVE YOU ❤️</h1>
+            <p>Happy birthday, sweetheart. Your smile is my favorite view, <br>and loving you is the easiest thing I've ever done.<br>May your new age bring you endless joy, happiness and blessings.</p>
+            <h2>From Your Hubby,</h2>
+            <h1 class="signature">PRINCE ❤️</h1>
+            <p>Forever celebrating you!</p>
+        </div>
+
+    </section>
+
+    <audio id="music">
+        <source src="birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
